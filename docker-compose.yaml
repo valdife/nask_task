@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./.docker/Dockerfile.fastapi
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: poetry run uvicorn app.main:app --host 0.0.0.0 --port 8000
