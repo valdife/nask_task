@@ -11,6 +11,10 @@ poetry install
 cp .env.sample .env
 ```
 
+```bash
+pre-commit install
+```
+
 2. Run the application:
 ```bash
 docker compose up
