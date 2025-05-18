@@ -6,16 +6,16 @@
 ```bash
 poetry install
 ```
-
+2. Copy envs:
 ```bash
 cp .env.sample .env
 ```
-
+3. Install pre-commit hooks:
 ```bash
 pre-commit install
 ```
 
-2. Run the application:
+4. Run the application:
 ```bash
 docker compose up
 ```
