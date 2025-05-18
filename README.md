@@ -7,6 +7,10 @@
 poetry install
 ```
 
+```bash
+cp .env.sample .env
+```
+
 2. Run the application:
 ```bash
 docker compose up
